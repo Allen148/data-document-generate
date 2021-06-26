@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<datasourse>
+    <source id="1">
+        <username>root</username>
+        <password>123321</password>
+        <driverClass>com.mysql.cj.jdbc.Driver</driverClass>
+        <url>jdbc:mysql://www.qiuzw.top:3456/demo?useUnicode=true;serverTimezone=Asia/Shanghai;characterEncoding=utf8</url>
+        <fileName>自定义文件名</fileName>
+        <!--生成文件类型 目前仅支持【HTML文件，WORD文件，Markdown文件】-->
+        <fileType>HTML文件</fileType>
+        <ignoreTables>task_history,task_history_extend,history_id_table,history_id_table_more,task_history_extend_test</ignoreTables>
+    </source>
+
+    <source id="2">
+        <username>root</username>
+        <password>123321</password>
+        <driverClass>com.mysql.cj.jdbc.Driver</driverClass>
+        <url>jdbc:mysql://www.qiuzw.top:3456/network?useUnicode=true;serverTimezone=Asia/Shanghai;characterEncoding=utf8</url>
+        <fileName>network</fileName>
+        <!--生成文件类型 目前仅支持【HTML文件，WORD文件，Markdown文件】-->
+        <fileType>WORD文件</fileType>
+        <ignoreTables>task_history,task_history_extend,history_id_table,history_id_table_more,task_history_extend_test</ignoreTables>
+    </source>
+    <doc>
+        <filePath>/Users/qiuzengwen/Projects</filePath>
+    </doc>
+</datasourse>
