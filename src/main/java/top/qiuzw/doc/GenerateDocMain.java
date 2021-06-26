@@ -17,7 +17,7 @@ public class GenerateDocMain extends SAXmlReadConfig{
     public static void main(String[] args){
         SourceInfos sourceInfos = DataSourceThreadLocal.get();
         for (int i = 0; i < sourceInfos.getInfoModelList().size(); i++) {
-            //执行生成
+            //执行生成ff
             new DocumentationExecute(BeanConfig.generateConfiguration(i)).execute();
         }
     }
