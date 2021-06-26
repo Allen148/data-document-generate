@@ -9,7 +9,7 @@ import top.qiuzw.doc.model.SourceInfos;
 /**
  * author: Allen.qiu
  * Date: 2021/6/25 10:45
- * description:
+ * description: 主函数
  **/
 public class GenerateDocMain extends SAXmlReadConfig{
 

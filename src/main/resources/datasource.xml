@@ -4,10 +4,11 @@
         <username>root</username>
         <password>123321</password>
         <driverClass>com.mysql.cj.jdbc.Driver</driverClass>
-        <url>jdbc:mysql://www.qiuzw.top:3456/demo?useUnicode=true;serverTimezone=Asia/Shanghai;characterEncoding=utf8</url>
+        <url>jdbc:mysql://www.qiuzw.top:3333/demo?useUnicode=true;serverTimezone=Asia/Shanghai;characterEncoding=utf8</url>
         <fileName>自定义文件名</fileName>
         <!--生成文件类型 目前仅支持【HTML文件，WORD文件，Markdown文件】-->
         <fileType>HTML文件</fileType>
+        <!--需要忽略的数据表，多张表使用，隔开-->
         <ignoreTables>task_history,task_history_extend,history_id_table,history_id_table_more,task_history_extend_test</ignoreTables>
     </source>
 
@@ -15,12 +16,13 @@
         <username>root</username>
         <password>123321</password>
         <driverClass>com.mysql.cj.jdbc.Driver</driverClass>
-        <url>jdbc:mysql://www.qiuzw.top:3456/network?useUnicode=true;serverTimezone=Asia/Shanghai;characterEncoding=utf8</url>
+        <url>jdbc:mysql://www.qiuzw.top:3333/network?useUnicode=true;serverTimezone=Asia/Shanghai;characterEncoding=utf8</url>
         <fileName>network</fileName>
         <!--生成文件类型 目前仅支持【HTML文件，WORD文件，Markdown文件】-->
         <fileType>WORD文件</fileType>
         <ignoreTables>task_history,task_history_extend,history_id_table,history_id_table_more,task_history_extend_test</ignoreTables>
     </source>
+    <!--    配置字典存放路径-->
     <doc>
         <filePath>/Users/qiuzengwen/Projects</filePath>
     </doc>
